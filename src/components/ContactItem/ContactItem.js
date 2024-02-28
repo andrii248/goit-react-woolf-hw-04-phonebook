@@ -5,7 +5,6 @@ const ContactItem = ({ id, name, number, dltContact }) => {
     <li className={css.item} id={id}>
       {name}: {number}
       <button className={css.btn} type="button" onClick={() => dltContact(id)}>
-        {' '}
         Delete
       </button>
     </li>
